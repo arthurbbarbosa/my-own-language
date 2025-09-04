@@ -1,0 +1,22 @@
+edition = "2024"
+style_edition = "2024"
+unstable_features = true
+
+tab_spaces = 2
+reorder_modules = true
+reorder_imports = true
+newline_style = "unix"
+binop_separator = "back"
+trailing_comma = "Never"
+match_arm_blocks = false
+use_try_shorthand = true
+normalize_comments = true
+reorder_impl_items = true
+trailing_semicolon = false
+blank_lines_upper_bound = 1
+struct_lit_single_line = false
+overflow_delimited_expr = true
+condense_wildcard_suffixes = true
+format_code_in_doc_comments = true
+match_arm_leading_pipes = "Preserve"
+imports_layout = "HorizontalVertical"

@@ -1,0 +1,21 @@
+[package]
+name = "my-own-language"
+version = "2.0.0"
+edition = "2024"
+authors = ["Arthur Barbosa <guevara.arthur@proton.me>"]
+description = "A strongly-typed, multi-paradigm compiled programming language focused on maximum optimization."
+license = "GPL-2.0"
+repository = "https://github.com/arthurbbarbosa/my-own-language"
+homepage = "https://github.com/arthurbbarbosa/my-own-language#README.md"
+readme = "README.md"
+keywords = ["compiler", "language", "programming-language", "parser", "interpreter"]
+categories = ["compilers", "development-tools", "programming-languages"]
+publish = false
+rust-version = "1.89"
+
+[dependencies]
+fast-float = "0.2.0"
+rustc-hash = "2.1.1"
+
+[workspace]
+resolver = "2"
